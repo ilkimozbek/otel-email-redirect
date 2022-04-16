@@ -14,7 +14,7 @@ app.get('/', async function(req, res) {
     
     
 
-    let mail = `mailto:${address_1}`
+    let mail = `mailto:${address_1}?bcc=aksiyon@kafessizturkiye.com`
     res.redirect(mail)
 })
 
