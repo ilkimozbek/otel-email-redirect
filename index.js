@@ -9,7 +9,7 @@ const app = express();
 const path = require('path');
 
 app.get('/', async function(req, res) {
-    const addresses = ["info@anemonhotels.com","reservations@baruthotels.com","info@crystalhotels.com.tr","istanbulsatis@kayahotels.com.tr","brand@rixos.com"]
+    const addresses = ["info@anemonhotels.com","reservations@baruthotels.com","info@crystalhotels.com.tr","istanbulsatis@kayahotels.com.tr"]
     const address_1 = addresses[Math.floor(Math.random() * addresses.length)]
     
     
